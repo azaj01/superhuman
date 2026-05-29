@@ -5,14 +5,21 @@ See https://imobench.github.io for more info.
 ## Usage
 
 *   IMO-AnswerBench: [answerbench_v2.csv](answerbench_v2.csv)
-*   IMO-ProofBench: [proofbench.csv](proofbench.csv)
+*   IMO-ProofBench: [proofbench_v2.csv](proofbench_v2.csv)
 *   IMO-GradingBench: [gradingbench.csv](gradingbench.csv)
+
+As of 05/29/2025, we updated IMO-ProofBench with `proofbench_v2.csv` to fix a
+typo in PB-Advanced-022.
+The previous version [proofbench.csv](proofbench.csv) is now deprecated.
 
 As of 02/12/2026, we updated IMO-Answerbench with `answerbench_v2.csv` to fix
 some problems that had ambiguous problem statements or incorrect answers.
 The previous version [answerbench.csv](answerbench.csv) is now deprecated.
 
 ## Acknowledgments
+
+We would like to thank Ashley Aragorn Khoo for spotting the typo in
+IMO-ProofBench.
 
 We would like to thank Xujie from Tsinghua University, Aiden Jung and Hyunwoo
 Choi from MIT, Youngbeom Jin from Caltech, Jiwon Kang from Seoul National

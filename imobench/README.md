@@ -7,6 +7,7 @@ See https://imobench.github.io for more info.
 *   IMO-AnswerBench: [answerbench_v2.csv](answerbench_v2.csv)
 *   IMO-ProofBench: [proofbench_v2.csv](proofbench_v2.csv)
 *   IMO-GradingBench: [gradingbench.csv](gradingbench.csv)
+*   IMO-LeanProofBench: [lean_proof_bench.csv](lean_proof_bench.csv)
 
 As of 05/29/2025, we updated IMO-ProofBench with `proofbench_v2.csv` to fix a
 typo in PB-Advanced-022.
@@ -17,6 +18,10 @@ some problems that had ambiguous problem statements or incorrect answers.
 The previous version [answerbench.csv](answerbench.csv) is now deprecated.
 
 ## Acknowledgments
+
+We would like to thank Mirek Olšák, Ashley Aragorn Khoo, Edward Lockhart,
+Paul Lezeau, Calle Sönne, and Moritz Firsching for formalizing the Lean
+problem statements in IMO-LeanProofBench.
 
 We would like to thank Ashley Aragorn Khoo for spotting the typo in
 IMO-ProofBench.
